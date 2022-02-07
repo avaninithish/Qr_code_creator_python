@@ -1,0 +1,3 @@
+mport pyqrcode
+img = pyqrcode.create("https://www.youtube.com/")
+img.svg("youtubeQR.svg")
