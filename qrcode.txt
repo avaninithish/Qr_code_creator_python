@@ -1,3 +1,5 @@
-mport pyqrcode
-img = pyqrcode.create("https://www.youtube.com/")
-img.svg("youtubeQR.svg")
+pic=input("Give  the url of for which QR to be created")
+name=input("Enter the name of qr code")+".svg"
+import pyqrcode
+img = pyqrcode.create(pic)
+img.svg(name)
